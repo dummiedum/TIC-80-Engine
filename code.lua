@@ -22,7 +22,7 @@ p = {
  rotate = 0,
  w = 1,
  h = 1,
-	hidden = 1
+ hidden = 1
 }
 
 --Sprite
