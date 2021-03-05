@@ -33,7 +33,7 @@ sprites = {
  e, p
 }
 
---Collision Checking (returns true or false)
+--Collision Checking (returns true or false) args: sprite, width, height, x offset, y offset, sprite, width, height, x offset, y offset
 function CHECKCOLSPR(one,onew,oneh,onex,oney,two,twow,twoh,twox,twoy)
  touching = false
  if(one.x+onew+onex>two.x+twox and one.y+oneh+oney>two.y+twoy and one.x+onex<two.x+twow+twox and one.y+oney<two.y+twoh+twoy) then
