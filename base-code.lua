@@ -19,15 +19,15 @@ function RENDER()
  cls()
  map(CAMERA.X/8,CAMERA.Y/8)
  for i=1,#sprites do
-	 if sprites[i].hidden ~= 1 then
+  if sprites[i].hidden ~= 1 then
    spr(sprites[i].id,sprites[i].x-CAMERA.X,sprites[i].y-CAMERA.Y,sprites[i].colKey,sprites[i].scale,sprites[i].flip,sprites[i].rotate,sprites[i].w,sprites[i].h)
   end
-	end
+ end
  for i=1,#GUI do
-	 if GUI[i].hidden ~= 1 then
+  if GUI[i].hidden ~= 1 then
    spr(GUI[i].id,GUI[i].x,GUI[i].y,GUI[i].colKey,GUI[i].scale,GUI[i].flip,GUI[i].rotate,GUI[i].w,GUI[i].h)
   end
-	end
+ end
 end
 
 
