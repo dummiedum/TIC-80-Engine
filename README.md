@@ -5,7 +5,7 @@
   Camera <br>
   Rendering Sprites <br>
   Drawing Tiles (recommended for static screens, not smooth scrolling) <br>
+  Adding "GUI" Rendering <br>
   
 # Plan to Implement:
-  Adding "GUI" Rendering <br>
   Tile Collision <br>
